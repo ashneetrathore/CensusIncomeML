@@ -1,0 +1,9 @@
+## :dollar: INCOME ANALYSIS AND ML PREDICTION ON THE ADULT CENSUS DATASET
+
+### :open_book: OVERVIEW
+Date: December 2024\
+Author(s): Ashneet Rathore
+
+### :bar_chart: EXPLORATORY ANALYSIS
+
+### :trophy: EVALUATION OF BOOSTING ALGORITHMS
