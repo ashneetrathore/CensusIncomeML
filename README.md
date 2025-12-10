@@ -1,4 +1,4 @@
-## :dollar: CENSUS INCOME DATASET ML ANALYSIS
+## :dollar: CENSUS INCOME DATASET | EXPLORATORY AND ML ANALYSIS
 
 ### :open_book: OVERVIEW
 Date: December 2024\
@@ -9,8 +9,8 @@ Author(s): Ashneet Rathore
 > [!NOTE]
 > All figures referenced in this report can be found in the corresponding Jupyter Notebook (`project.ipynb`) in the repository.
 
-### :bar_chart: EXPLORATORY ANALYSIS
-During the analysis phase, the relationships between various features and the likelihood of earning more than $50,000 were examined to identify characteristics associated with higher income.
+### :bar_chart: EXPLORATORY DATA ANALYSIS
+During the EDA phase, the relationships between various features and the likelihood of earning more than $50,000 were examined to identify characteristics associated with higher income.
 
 Figure 1 displays the percentage of people earning more than $50,000 categorized by sex. The bar chart reveals that while 30% of males earned more than $50,000 in 1994, only about 10% of all females did. This disparity reflects broader trends in the 1990s: although women were increasingly entering the workforce, they were still underrepresented in high-paying roles and often earned less than their male counterparts for comparable work.
 
