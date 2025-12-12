@@ -1,6 +1,6 @@
-## :dollar: CENSUS INCOME DATASET | EDA + ENSEMBLE LEARNING
+# :dollar: CENSUS INCOME DATASET | EDA + ENSEMBLE LEARNING
 
-### :open_book: OVERVIEW
+## :open_book: OVERVIEW
 Date: December 2024\
 Author(s): Ashneet Rathore
 
@@ -9,7 +9,7 @@ Author(s): Ashneet Rathore
 > [!NOTE]
 > All figures referenced in this report can be found in the corresponding Jupyter Notebook (`project.ipynb`) in the repository.
 
-### :bar_chart: EXPLORATORY DATA ANALYSIS
+## :bar_chart: EXPLORATORY DATA ANALYSIS
 During the EDA phase, the relationships between various features and the likelihood of earning more than $50,000 were examined to identify characteristics associated with higher income.
 
 Figure 1 displays the percentage of people earning more than $50,000 categorized by sex. The bar chart reveals that while 30% of males earned more than $50,000 in 1994, only about 10% of all females did. This disparity reflects broader trends in the 1990s: although women were increasingly entering the workforce, they were still underrepresented in high-paying roles and often earned less than their male counterparts for comparable work.
@@ -22,7 +22,7 @@ Figure 4 shows the frequency of adults in each occupation, separated by income c
 
 According to the chart, executive-managerial and professional-speciality positions have the highest proportion of individuals earning above $50,000 among all occupations. Roles involving technical manual labor and administrative tasks, such as administrative-clerical, craft-repair, and sales occupations, have a large gap between the two bars, with the majority earning $50,000 or below and only a small fraction earning above $50,000. Farming-fishing, service, and tech support roles show an even wider gap between the two bars, with relatively few high earners. These income patterns do not necessarily correspond to the societal importance of the occupations. For instance, farming plays a critical role in society, yet it shows a relatively low proportion of high-income earners, illustrating that essential work is not always matched with higher pay.
 
-### :trophy: EVALUATION OF BOOSTING ALGORITHMS
+## :trophy: EVALUATION OF BOOSTING ALGORITHMS
 Both AdaBoost and Gradient Boosting are sequential ensemble learning methods that combine multiple weak learners, such as decision trees, to create a stronger model that improves performance. AdaBoost prioritizes misclassified data by increasing its weight at each iteration, so subsequent learners pay more attention to difficult cases. Gradient Boosting, on the other hand, minimizes residual error by fitting new models to correct the mistakes of previous ones using gradient descent. XG Boosting is an optimized implementation of Gradient Boosting that adds regularization to prevent overfitting and support parallel processing. 
 
 This section of the report compares the accuracies of the three algorithms by varying two parameters: the learning rate and the number of estimators, or weak learners. The evaluation uses a 70/30 train–test split, with 70% of the data used for training and 30% reserved for testing
